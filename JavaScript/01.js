@@ -53,6 +53,11 @@ unNombre = parseFloat(unNombre);
 console.log(unNombre);
 console.log(typeof unNombre);
 
+// CONVERTIR UN NB ENTIER OU FLOAT EN STRING
+unNombre=10;
+var unString = unNombre.toString();
+console.log( unString);
+console.log(typeof unString);
 
 // LA PORTEE DES VARIABLES
 
@@ -64,3 +69,20 @@ Elles sont dispo dans l'ensemble du doc JS, y compris dans les fonctions*/
 
 /* déf.: Les var déclarées à l'intérieur d'une fonction.
 Elles st dispo uniquement dans le scope de la fonction */
+
+//  CREER UN OBJET EN JS
+
+var coordonnee = {
+    // Propriété   : valeur ,
+    prenom : 'Gaëlle',
+    nom : 'CHARLES-BELAMOUR',
+    age : 30,
+    tel : '0690 94 63 26'
+};
+
+console.clear();
+console.log(coordonnee);
+console.log(coordonnee ['prenom']);
+
+
+
