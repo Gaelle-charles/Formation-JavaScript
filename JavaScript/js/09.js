@@ -125,3 +125,29 @@ const mois1 = ['Janvier', 'Février' , 'Mars', 'Avril',
 console.log(mois1[mois]);
 
 alert ('Actuellement nous sommes en ' + (mois1[mois]));
+
+/* ---------------------------------- EXERCICE ----------------------------------- */
+// CONSIGNE :
+
+// A partir du tableau "baseDeDonnees" fourni, vous devez mettre en place un système d'authentification.
+// Après avoir demandé à votre utilisateur son EMAIL et MOT DE PASSE,
+// et après avoir vérifié ses informations, vous lui souhaiterez la bienvenue
+// avec son nom et prénom (document.write);
+
+// En cas d'échec, vous afficherez une ALERT pour l'informer de l'erreur.
+
+
+const baseDeDonnees = [
+    {'prenom':'Hugo','nom':'LIEGEARD','email':'wf3@hl-media.fr','mdp':'wf3'},
+    {'prenom':'Rodrigue','nom':'NOUEL','email':'rodrigue@hl-media.fr','mdp':'wf3'},
+    {'prenom':'Nathanael','nom':'ORDONNE','email':'nathanael.d@hl-media.fr','mdp':'wf3'}
+    ];
+
+    const emailUtilisateur = prompt("Email : ", "Saissez votre email","Mot de passe");
+    const mdpUtilisateur = prompt("Mpd : ", "Saissez votre mot de passe","Mot de passe");
+    
+        if (baseDeDonnees === emailUtilisateur && mdpUtilisateur === //mdpConnexion){
+            alert("Bienvenue !" + );
+        } else {
+                alert("Identifiants incorrects !");
+            }
